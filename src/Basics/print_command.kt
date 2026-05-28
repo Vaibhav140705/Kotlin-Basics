@@ -1,3 +1,5 @@
+package Basics
+
 fun main(args:Array<String>) {
     // Printing strings with different types of print commands.
     print("Welcome to the world. ")

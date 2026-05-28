@@ -1,3 +1,5 @@
+package Basics
+
 fun main(args:Array<String>) {
     var a=92
     var b=90.2
