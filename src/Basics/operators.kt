@@ -35,4 +35,29 @@ fun main(args:Array<String>) {
     println("Equal to: ${d==e}")
     println("Not equal to: ${d!=e}")
 
+    //LOGICAL OPERATORS
+    var l=10
+    var m=20
+    var n=30
+
+    println("n>m && m>l: ${n>m && m>l}")
+    println("n>m || l>m: ${n>m || l>m}")
+    println("!(n>m): ${!(n>m)}")
+
+    // INCREMENT & DECREMENT OPERATORS
+    var x=1
+    var y=x--
+    println("Post Decrement: $y")
+
+    x=1
+    y=--x
+    println("Pre Decrement: $y")
+
+    x=1
+    y=x++
+    println("Post Increment: $y")
+
+    x=1
+    y=++x
+    println("Pre Increment: $y")
 }
